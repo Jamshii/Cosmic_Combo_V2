@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameOverScreen"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/results"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:src="@drawable/game_over_sign"
+        />
+
+    <TextView
+        android:id="@+id/tv_GameScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/results"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-100dp"
+        android:text="SCORE: 0"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:fontFamily="@font/consola"
+        />
+
+    <TextView
+        android:id="@+id/tv_Player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_GameScore"
+        android:layout_centerVertical="true"
+        android:text="CONGRATS!"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/consola"
+        />
+
+
+    <ImageView
+        android:id="@+id/btnReplay"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/tv_Player"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/btn_replay" />
+
+    <ImageView
+        android:id="@+id/btnMenu"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/btnReplay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/btn_mainmenu" />
+
+    <RelativeLayout
+        android:id="@+id/difficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg">
+
+            <ImageView
+                android:id="@+id/diff_choose"
+                android:layout_width="350dp"
+                android:layout_height="450dp"
+                android:src="@drawable/diff_txtbx"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <ImageView
+                android:id="@+id/btnEasy"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:src="@drawable/btn_easy"
+                android:layout_margin="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/btnMedium"
+                app:layout_constraintEnd_toEndOf="@id/btnMedium"
+                app:layout_constraintStart_toStartOf="@id/btnMedium"/>
+
+            <ImageView
+                android:id="@+id/btnMedium"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:src="@drawable/btn_medium"
+                android:layout_below="@id/btnEasy"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                app:layout_constraintBottom_toBottomOf="@+id/diff_choose"
+                app:layout_constraintEnd_toEndOf="@+id/diff_choose"
+                app:layout_constraintStart_toStartOf="@+id/diff_choose"
+                app:layout_constraintTop_toTopOf="@+id/diff_choose"/>
+
+            <ImageView
+                android:id="@+id/btnHard"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:src="@drawable/btn_hard"
+                android:layout_below="@id/btnMedium"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                app:layout_constraintTop_toBottomOf="@id/btnMedium"
+                app:layout_constraintEnd_toEndOf="@id/btnMedium"
+                app:layout_constraintStart_toStartOf="@id/btnMedium"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/btn_x_difficulty"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/x_btn"
+            android:layout_marginTop="100dp"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

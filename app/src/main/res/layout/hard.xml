@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/iv_11"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_12"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_13"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_14"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/iv_21"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_22"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_23"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_24"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/iv_31"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_32"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_33"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_34"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/iv_41"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_42"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_43"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_44"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/iv_51"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_52"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_53"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_54"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/iv_61"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_62"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_63"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_64"
+            android:src="@drawable/card_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    
+
+</LinearLayout>

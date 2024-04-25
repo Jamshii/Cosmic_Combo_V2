@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MediumGameplayActivity"
+    android:background="@drawable/bg"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="32dp">
+
+    <ImageView
+        android:id="@+id/difficulty"
+        android:layout_width="394dp"
+        android:layout_height="371dp"
+        android:layout_alignEnd="@+id/tv_score"
+        android:layout_marginEnd="-30dp"
+        android:src="@drawable/medium_title" />
+
+    <ImageView
+        android:id="@+id/homebutton"
+        android:layout_width="92dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="-30dp"
+        android:src="@drawable/home_button" />
+
+    <ImageView
+        android:id="@+id/pause"
+        android:layout_width="130dp"
+        android:layout_height="85dp"
+        android:layout_alignEnd="@+id/homebutton"
+        android:layout_marginEnd="-310dp"
+        android:src="@drawable/pause_btn" />
+
+    <TextView
+        android:id="@+id/tv_round"
+        android:layout_width="wrap_content"
+        android:layout_height="153dp"
+        android:layout_above="@+id/tv"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/consola"
+        android:paddingBottom="10dp"
+        android:text="Round 1"
+        android:textColor="#ffffff"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tv_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="124dp"
+        android:padding="10dp"
+        android:text="Timer: 00:00"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:fontFamily="@font/consola"
+        />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="31dp"
+        android:padding="10dp"
+        android:text="Score: 0"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:fontFamily="@font/consola" />
+
+    <include
+        layout="@layout/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_below="@id/tv_score"
+        android:layout_marginTop="44dp" />
+
+</RelativeLayout>
